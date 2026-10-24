@@ -1,0 +1,63 @@
+{
+  "generated": [
+    "bandit.motion",
+    "ellie.motion",
+    "tnt.motion",
+    "boom.motion",
+    "room",
+    "room.boom",
+    "title"
+  ],
+  "ext": "jpg",
+  "opaque": [
+    "room",
+    "room.boom",
+    "title"
+  ],
+  "additive": [
+    "boom.motion"
+  ],
+  "sheets": {
+    "bandit.motion": {
+      "cols": 4,
+      "rows": 3,
+      "align": "floor",
+      "mirrorRows": [
+        0,
+        1
+      ],
+      "rowIds": [
+        "tease",
+        "mood",
+        "run"
+      ]
+    },
+    "ellie.motion": {
+      "cols": 4,
+      "rows": 2,
+      "align": "floor",
+      "rowIds": [
+        "poses",
+        "poses"
+      ]
+    },
+    "tnt.motion": {
+      "cols": 2,
+      "rows": 2,
+      "align": "center",
+      "rowIds": [
+        "damage",
+        "damage"
+      ]
+    },
+    "boom.motion": {
+      "cols": 4,
+      "rows": 2,
+      "align": "center",
+      "rowIds": [
+        "fx",
+        "fx"
+      ]
+    }
+  }
+}
